@@ -30,13 +30,13 @@ bashrc(){
 
 #apenas seta o plymouth spinner se nao for oem
 plymouth(){
-    file_oem=/etc/.iso.info
+#    file_oem=/etc/.iso.info
 
-if [ -e $file_oem ];then
-	echo "is oem"
- else
+#if [ -e $file_oem ];then
+#	echo "is oem"
+# else
 	plymouth-set-default-theme -R spinner || true
-fi	
+#fi	
 
 }
 
