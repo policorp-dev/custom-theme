@@ -47,7 +47,7 @@ theme(){
 
 case "$1" in
     configure)
-	    plymouth
+	 #   plymouth
 	    # o tema esta  configurado no pacote desktop-base
 	    #theme
 	    bashrc
