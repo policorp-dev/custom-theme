@@ -1,0 +1,39 @@
+Source: custom-theme
+Section: misc
+Priority: optional
+Maintainer: OEM Polilinux <oem_support@polilinux.com.br>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/custom-theme
+#Vcs-Git: https://salsa.debian.org/debian/custom-theme.git
+
+Package: custom-theme
+Architecture: all
+Depends:
+ desktop-base (>= 12.Policorp-6) ,
+ plymouth,
+ plymouth-themes,
+ plymouth-theme-dots,
+ firefox-custom-policorp,
+ gschema-override,
+ gnome-shell-extension-display-switcher,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: meta pacote para configurar tema Policorp
+ Meta pacote para configurar tema Policorp
+
+Package: custom-theme-kde
+Architecture: all
+Depends:
+ desktop-base (>= 12.Policorp-6) ,
+ plymouth,
+ plymouth-themes,
+ plymouth-theme-dots,
+ firefox-custom-policorp,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: meta pacote para configurar tema Policorp kde
+ Meta pacote para configurar tema Policorp kde
