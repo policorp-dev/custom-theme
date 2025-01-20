@@ -13,13 +13,10 @@ Homepage: <insert the upstream URL, if relevant>
 Package: custom-theme
 Architecture: all
 Depends:
- desktop-base (>= 12.Policorp-6) ,
+ desktop-base (>= 13) ,
  plymouth,
  plymouth-themes,
- plymouth-theme-dots,
  firefox-custom-policorp,
- gschema-override,
- gnome-shell-extension-display-switcher,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
@@ -28,10 +25,9 @@ Description: meta pacote para configurar tema Policorp
 Package: custom-theme-kde
 Architecture: all
 Depends:
- desktop-base (>= 12.Policorp-6) ,
+ desktop-base (>= 13) ,
  plymouth,
  plymouth-themes,
- plymouth-theme-dots,
  firefox-custom-policorp,
  ${shlibs:Depends},
  ${misc:Depends},
