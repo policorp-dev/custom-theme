@@ -17,6 +17,7 @@ Depends:
  plymouth,
  plymouth-themes,
  firefox-custom-policorp,
+ gnome-shell-extension-lockkeys,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
