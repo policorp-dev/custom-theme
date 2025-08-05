@@ -1,3 +1,10 @@
+custom-theme (1.0.6) stable; urgency=medium
+
+  * Adicionado gnome-shell-extension-quick-settings-audio-panel nas
+    dependencias
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Tue, 05 Aug 2025 15:39:12 +0000
+
 custom-theme (1.0.5) stable; urgency=medium
 
   * First version in debian trixie
