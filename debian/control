@@ -18,6 +18,7 @@ Depends:
  plymouth-themes,
  firefox-custom-policorp,
  gnome-shell-extension-lockkeys,
+ gnome-shell-extension-quick-settings-audio-panel,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
