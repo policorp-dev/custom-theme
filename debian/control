@@ -22,6 +22,7 @@ Depends:
  dconf-profile,
  grub-distributor,
  network-manager-l10n,
+ pipewire-audio-client-libraries,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
@@ -37,6 +38,7 @@ Depends:
  dconf-profile,
  grub-distributor,
  network-manager-l10n,
+ pipewire-audio-client-libraries,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp kde
