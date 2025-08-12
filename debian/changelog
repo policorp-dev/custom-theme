@@ -1,3 +1,9 @@
+custom-theme (1.0.7) stable; urgency=medium
+
+  * Removido dependencia pipewire
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 11 Aug 2025 20:58:07 +0000
+
 custom-theme (1.0.6) stable; urgency=medium
 
   * Adicionado gnome-shell-extension-quick-settings-audio-panel nas
