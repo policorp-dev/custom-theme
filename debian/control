@@ -24,6 +24,7 @@ Depends:
  network-manager-l10n,
  gnome-session-xsession,
  pipewire-pulse,
+ gnome-software-plugin-deb,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
@@ -40,6 +41,7 @@ Depends:
  grub-distributor,
  network-manager-l10n,
  pipewire-pulse,
+ gnome-software-plugin-deb,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp kde
