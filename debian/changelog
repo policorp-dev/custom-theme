@@ -1,3 +1,9 @@
+custom-theme (1.0.9) stable; urgency=medium
+
+  * Added deps
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Wed, 17 Dec 2025 13:29:26 -0300
+
 custom-theme (1.0.8) stable; urgency=medium
 
   * Adicionado pacote gnome-session-xsession
