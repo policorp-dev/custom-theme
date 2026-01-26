@@ -8,7 +8,7 @@ Build-Depends:
 Standards-Version: 4.6.2
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://salsa.debian.org/debian/custom-theme
-#Vcs-Git: https://salsa.debian.org/debian/custom-theme.git
+Vcs-Git: https://github.com/policorp-dev/custom-theme.git
 
 Package: custom-theme
 Architecture: all
@@ -27,7 +27,6 @@ Depends:
  gnome-software-plugin-deb,
  libqt5widgets5t64,
  driver-manager,
- ai-station,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
