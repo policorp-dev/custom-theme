@@ -26,6 +26,8 @@ Depends:
  pipewire-pulse,
  gnome-software-plugin-deb,
  libqt5widgets5t64,
+ driver-manager,
+ ai-station,
  ${shlibs:Depends},
  ${misc:Depends},
 Description: meta pacote para configurar tema Policorp
