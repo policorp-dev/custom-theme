@@ -1,3 +1,9 @@
+custom-theme (1.0.11) stable; urgency=medium
+
+  * Added qemu-usbtablet-ignore to the dependencies.
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Fri, 13 Feb 2026 12:59:17 -0300
+
 custom-theme (1.0.10) stable; urgency=medium
 
   * Added  ai-station and driver-manager to the dependencies.
