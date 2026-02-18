@@ -27,8 +27,7 @@ Depends:
  gnome-software-plugin-deb,
  libqt5widgets5t64,
  driver-manager,
- ${shlibs:Depends},
- ${misc:Depends},
+ qemu-usbtablet-ignore,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 
@@ -45,7 +44,6 @@ Depends:
  pipewire-pulse,
  gnome-software-plugin-deb,
  libqt5widgets5t64,
- ${shlibs:Depends},
- ${misc:Depends},
+ qemu-usbtablet-ignore,
 Description: meta pacote para configurar tema Policorp kde
  Meta pacote para configurar tema Policorp kde
