@@ -29,6 +29,7 @@ Depends:
  driver-manager,
  qemu-usbtablet-ignore,
  policorp-backgrounds,
+ fonts-tibetan-config,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 
@@ -46,5 +47,6 @@ Depends:
  gnome-software-plugin-deb,
  libqt5widgets5t64,
  qemu-usbtablet-ignore,
+ fonts-tibetan-config,
 Description: meta pacote para configurar tema Policorp kde
  Meta pacote para configurar tema Policorp kde
