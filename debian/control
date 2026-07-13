@@ -28,6 +28,7 @@ Depends:
  libqt5widgets5t64,
  driver-manager,
  qemu-usbtablet-ignore,
+ policorp-backgrounds,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 

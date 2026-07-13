@@ -1,3 +1,9 @@
+custom-theme (1.0.12) stable; urgency=medium
+
+  * Added policorp-backgrounds to the dependecies.
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Fri, 22 May 2026 09:32:34 -0300
+
 custom-theme (1.0.11) stable; urgency=medium
 
   * Added qemu-usbtablet-ignore to the dependencies.
