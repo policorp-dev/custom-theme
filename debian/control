@@ -33,6 +33,7 @@ Depends:
  qemu-usbtablet-ignore,
  policorp-backgrounds,
  fonts-tibetan-config,
+ gnome-software-plugin-deb,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 
