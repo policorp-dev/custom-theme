@@ -1,6 +1,7 @@
 custom-theme (1.0.13) stable; urgency=medium
 
   * Added fonts-tibetan-config to the dependecies.
+  * Forced the removal of the saltine package.
 
  -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 13 Jul 2026 09:17:25 -0300
 

@@ -1,7 +1,7 @@
 Source: custom-theme
 Section: misc
 Priority: optional
-Maintainer: OEM Polilinux <oem_support@polilinux.com.br>
+Maintainer: Edson Juliano Drosdeck <edson@policorp.com.br>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
@@ -12,6 +12,9 @@ Vcs-Git: https://github.com/policorp-dev/custom-theme.git
 
 Package: custom-theme
 Architecture: all
+Provides: saltine
+Conflicts: saltine
+Replaces: saltine
 Depends:
  desktop-base (>= 13) ,
  plymouth,
