@@ -1,7 +1,7 @@
 Source: custom-theme
 Section: misc
 Priority: optional
-Maintainer: OEM Polilinux <oem_support@polilinux.com.br>
+Maintainer: Edson Juliano Drosdeck <edson@policorp.com.br>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
@@ -12,6 +12,9 @@ Vcs-Git: https://github.com/policorp-dev/custom-theme.git
 
 Package: custom-theme
 Architecture: all
+Provides: saltine
+Conflicts: saltine
+Replaces: saltine
 Depends:
  desktop-base (>= 13) ,
  plymouth,
@@ -29,6 +32,8 @@ Depends:
  driver-manager,
  qemu-usbtablet-ignore,
  policorp-backgrounds,
+ fonts-tibetan-config,
+ gnome-software-plugin-deb,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 
@@ -46,5 +51,6 @@ Depends:
  gnome-software-plugin-deb,
  libqt5widgets5t64,
  qemu-usbtablet-ignore,
+ fonts-tibetan-config,
 Description: meta pacote para configurar tema Policorp kde
  Meta pacote para configurar tema Policorp kde
