@@ -34,6 +34,7 @@ Depends:
  policorp-backgrounds,
  fonts-tibetan-config,
  gnome-software-plugin-deb,
+ pipewire-system-services,
 Description: meta pacote para configurar tema Policorp
  Meta pacote para configurar tema Policorp
 
@@ -48,6 +49,7 @@ Depends:
  grub-distributor,
  network-manager-l10n,
  pipewire-pulse,
+ pipewire-system-services,
  gnome-software-plugin-deb,
  libqt5widgets5t64,
  qemu-usbtablet-ignore,
